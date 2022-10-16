@@ -1130,10 +1130,19 @@ products
   }
 }
 
+
+
+@media screen and (max-width: 994px) { 
+  .split-flex {
+  flex-wrap: wrap;
+}
+}
+
 @media screen and (min-width: 995px) {
   .split-flex {
     flex-wrap: nowrap;
   }
+
   .split-flex .left {
     order: 2;
     width: 50%;
